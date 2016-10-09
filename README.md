@@ -2,6 +2,15 @@
 
 This utility allows to :
 
+* Create EAP-SIM authentication entry for FreeRADIUS *users* file:
+
+  for example
+  ```
+  ./pySim-gen-eapsim-user.py | sudo tee -a /etc/freeradius/users
+  ```
+  
+  > NOTE: If you use PC/SC reader instead of serial connected one, run it with *-p* option.  
+
 * Program customizable SIMs. Two modes are possible:
 
   - one where you specify every parameter manually :
