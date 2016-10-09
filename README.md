@@ -1,4 +1,4 @@
-# pysim
+# pySIM
 
 This utility allows to :
 
